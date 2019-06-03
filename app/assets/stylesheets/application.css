@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+}
+
+
+.container {
+  border: 2px solid red;
+  text: blue;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
